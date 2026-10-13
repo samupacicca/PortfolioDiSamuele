@@ -13,7 +13,7 @@ const portfolio = {
   role: "Junior IT · Cloud & Security",
   introduction:
     "Costruisco competenze e progetti nelle infrastrutture IT e nella sicurezza informatica.",
-  email: "contatti@paciccsamuele.it",
+  email: "contatti@paciccasamuele.it",
   availability: "Portfolio personale · Samuele Pacicca",
 }
 
