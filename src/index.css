@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@87..125,500..900&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: #383e45;
+  --foreground: #f7f9f8;
+  --card: #30363d;
+  --card-foreground: #f7f9f8;
+  --primary: #40ffbc;
+  --primary-foreground: #12332a;
+  --secondary: #333940;
+  --secondary-foreground: #f7f9f8;
+  --muted: #2a3036;
+  --muted-foreground: #d2d7d8;
+  --accent: #40ffbc;
+  --accent-foreground: #12332a;
+  --border: #69717a;
+  --ring: #40ffbc;
+  --radius: 1rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-display: 'Archivo', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); font-family: 'Inter', sans-serif; }
+p { white-space: pre-line; }
+button, a { -webkit-tap-highlight-color: transparent; }

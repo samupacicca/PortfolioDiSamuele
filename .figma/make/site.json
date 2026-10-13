@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your work with a responsive portfolio website featuring sections for projects, certifications, and contact information, plus a downloadable CV.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
