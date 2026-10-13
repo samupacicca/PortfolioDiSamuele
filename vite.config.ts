@@ -11,9 +11,7 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
   const base = process.env.FIGMA_PUBLIC_URL
     ? `${process.env.FIGMA_PUBLIC_URL.replace(/\/$/, '')}/`
-    : mode === 'development'
-      ? '/'
-      : '/PortfolioDiSamuele/'
+    : '/'
 
   return {
     base,
