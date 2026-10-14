@@ -263,7 +263,7 @@ function Header({
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#383e45]/95 shadow-[0_8px_24px_rgba(0,0,0,.16)] backdrop-blur-xl">
       <Link
         to="/"
-        className="absolute left-10 top-0 flex h-[66px] items-center font-display text-lg tracking-tight text-white transition-opacity hover:opacity-70 sm:left-[4.125rem]"
+        className="absolute left-[calc(2.5rem-0.25cm)] top-0 flex h-[66px] items-center font-display text-lg tracking-tight text-white transition-opacity hover:opacity-70 sm:left-[4.125rem]"
       >
         SP<span className="text-primary">.</span>
       </Link>
